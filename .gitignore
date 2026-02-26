@@ -1,0 +1,13 @@
+# Ignora arquivos executáveis do Windows
+*.exe
+
+# Ignora arquivos de compilação e executáveis do Linux/macOS
+*.o
+*.out
+
+# Ignora pastas ocultas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora a pasta de executaveis gerados automaticamente
+output/
