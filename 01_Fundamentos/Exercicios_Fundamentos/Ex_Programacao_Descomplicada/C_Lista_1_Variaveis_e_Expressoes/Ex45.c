@@ -17,7 +17,7 @@ int main()
     printf("Digite uma letra maiuscula: (Ex. A): ");
     scanf(" %c", &letra);
 
-    letra = letra + 32;
+    letra += 32;
 
     printf("Letra minuscula: %c", letra);
 
